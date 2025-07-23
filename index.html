@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Auto Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Auto Search App</h1>
+    <div class="filters">
+        <label>Brand:
+            <select id="brand">
+                <option>BMW</option>
+                <option>Audi</option>
+                <option>Toyota</option>
+                <option>Mazda</option>
+            </select>
+        </label>
+        <label>Year:
+            <input type="number" id="yearFrom" placeholder="From" />
+            <input type="number" id="yearTo" placeholder="To" />
+        </label>
+        <label>Price:
+            <input type="number" id="priceMin" placeholder="Min" />
+            <input type="number" id="priceMax" placeholder="Max" />
+        </label>
+        <button onclick="search()">Search</button>
+    </div>
+    <div id="results"></div>
+    <script src="main.js"></script>
+</body>
+</html>
