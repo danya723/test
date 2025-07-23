@@ -1,0 +1,26 @@
+{
+  "filters": {
+    "brand": [
+      "BMW",
+      "Audi",
+      "Toyota",
+      "Mazda"
+    ],
+    "model": [],
+    "year": {
+      "from": 2000,
+      "to": 2025
+    },
+    "region": [
+      "Киев",
+      "Львов",
+      "Одесса",
+      "Харьков"
+    ],
+    "price": {
+      "min": 1000,
+      "max": 50000
+    }
+  },
+  "results": []
+}
